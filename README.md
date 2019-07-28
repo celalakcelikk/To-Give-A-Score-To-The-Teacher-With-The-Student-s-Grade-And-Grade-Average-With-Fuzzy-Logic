@@ -62,7 +62,7 @@ Girdi değerlerimiz öğrenci notu ve sınıfın ortalama notudur.
     </li>
 </ul>
 <ul>
-  Sınıfın Not Ortalaması:
+  Sınıfın Not Ortalaması Puan Aralıkları:
     <li>
     İyi: 50-100-100
       <ul>
@@ -91,5 +91,37 @@ Girdi değerlerimiz öğrenci notu ve sınıfın ortalama notudur.
 
 Çıktımız öğretmenin puan bilgisidir.
 
-
+<ul>
+  Öğretmenin Puan Aralıkları:
+    <li>
+    Çok İyi:8-10-10
+      <ul>
+      <li>Python Kodu: <code>hocanin_notu_cok_iyi=fuzz.trimf(hocanin_notu,[8,10,10])</code></li>
+      </ul>
+    </li>
+  <li>
+    İyi:6.5-7.5-8.5
+      <ul>
+      <li>Python Kodu: <code>hocanin_notu_iyi=fuzz.trimf(hocanin_notu,[6.5,7.5,8.5])</code></li>
+      </ul>
+    </li>
+  <li>
+    Orta:4-5.5-7
+      <ul>
+      <li>Python Kodu: <code>hocanin_notu_orta=fuzz.trimf(hocanin_notu,[4,5.5,7])</code></li>
+      </ul>
+    </li>
+    <li>
+    Kötü: 2-3.5-5
+      <ul>
+      <li>Python Kodu: <code>hocanin_notu_kotu=fuzz.trimf(hocanin_notu,[2,3.5,5])</code></li>
+      </ul>
+    </li>
+    <li>
+    Çok kötü: 0-0-2.5
+    <ul>
+<li>Python Kodu: <code>hocanin_notu_cok_kotu=fuzz.trimf(hocanin_notu,[0,0,2.5])</code></li>
+      </ul>
+    </li>
+</ul>
 
