@@ -82,11 +82,7 @@ Girdi değerlerimiz öğrenci notu ve sınıfın ortalama notudur.
       </ul>
     </li>
 </ul>
-
-<ul>
-<li><code></code></li>
-</ul>
-      
+     
 ### Problemin Çıktısı
 
 Çıktımız öğretmenin puan bilgisidir.
@@ -154,3 +150,9 @@ Aşağıdaki resimde görüldüğü gibi öğrenicinin not aralıkları ile sın
    
  </ul>
 
+### Bulandırma 
+
+
+Aşağıdaki resimde görüldüğü gibi gerçek hayatta olması çok zor olan öğretmen puan aralıklarını çıkarıp sistemi bulanıklaştırıldı ve tablo halinde oluşturuldu.
+
+<img src="https://github.com/celalakcelikk/To-Give-A-Score-To-The-Teacher-With-The-Student-s-Grade-And-Grade-Average-With-Fuzzy-Logic/blob/master/iimages/bulandirma.png">
