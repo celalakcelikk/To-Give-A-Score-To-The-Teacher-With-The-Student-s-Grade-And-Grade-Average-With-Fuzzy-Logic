@@ -139,14 +139,14 @@ Aşağıdaki resimde görüldüğü gibi öğrenicinin not aralıkları ile sın
       <li>Python Kodu: <code>ogrenci= np.arange(0,101,0.1)</code></li>
       </ul>
     </li>
-    <li>
+    
       <li>
     Sınıfın not ortalaması=0 ile 100 arasında belirlendi.
       <ul>
       <li>Python Kodu: <code>sinif_ort=np.arange(0,101,0.1)</code></li>
       </ul>
     </li>
-    <li>
+  
       <li>
     Öğretmenin puanı=0 ile 10 arasında belirlendi.
       <ul>
