@@ -130,3 +130,29 @@ Girdi değerlerimiz öğrenci notu ve sınıfın ortalama notudur.
 Aşağıdaki resimde görüldüğü gibi öğrenicinin not aralıkları ile sınıfın not aralıkları, hocaya verilecek olan puan aralıklarını sözel olarak yazılıp tablo halinde oluşturuldu.
 <img src="https://github.com/celalakcelikk/To-Give-A-Score-To-The-Teacher-With-The-Student-s-Grade-And-Grade-Average-With-Fuzzy-Logic/blob/master/iimages/bulanik_mantik_tasar%C4%B1m%C4%B1.png">
 
+### Giriş ve Çıkış Değer Aralıklarının Tanımlanması
+
+<ul>
+    <li>
+    Öğrencinin notu= 0 ile 100 arasında belirlendi.
+      <ul>
+      <li>Python Kodu: <code>ogrenci= np.arange(0,101,0.1)</code></li>
+      </ul>
+    </li>
+    <li>
+      <li>
+    Sınıfın not ortalaması=0 ile 100 arasında belirlendi.
+      <ul>
+      <li>Python Kodu: <code>sinif_ort=np.arange(0,101,0.1)</code></li>
+      </ul>
+    </li>
+    <li>
+      <li>
+    Öğretmenin puanı=0 ile 10 arasında belirlendi.
+      <ul>
+      <li>Python Kodu: <code>hocanin_notu=np.arange(0,11,0.1)</code></li>
+      </ul>
+    </li>
+    <li>
+ </ul>
+
