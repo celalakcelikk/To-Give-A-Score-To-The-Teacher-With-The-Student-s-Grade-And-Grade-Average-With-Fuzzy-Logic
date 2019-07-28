@@ -35,12 +35,25 @@
     </ul>  
   </li>
  </ul>
-## Projenin Çalışma Şeması
+ 
+## Projenin Çalışma Adımları
 
 ### Problemin Giriş
 Girdi değerlerimiz öğrenci notu ve sınıfın ortalama notudur.
 <ul>
   Öğrencinin Not Aralıkları:
+    <li>
+    İyi: 50-100-100
+    </li>
+    <li>
+    Orta: 30-50-70
+    </li>
+    <li>
+    Kötü: 0-0-50
+    </li>
+</ul>
+<ul>
+  Sınıfın Not Ortalaması:
     <li>
     İyi: 50-100-100
     </li>
