@@ -45,19 +45,19 @@ Girdi değerlerimiz öğrenci notu ve sınıfın ortalama notudur.
     <li>
     İyi: 50-100-100
       <ul>
-      <li><code>ogrenci_iyi=fuzz.trimf(ogrenci,[50,100,100])</code></li>
+      <li>Python Kodu:<code>ogrenci_iyi=fuzz.trimf(ogrenci,[50,100,100])</code></li>
       </ul>
     </li>
     <li>
     Orta: 30-50-70
       <ul>
-      <li><code>ogrenci_orta=fuzz.trimf(ogrenci,[30,50,70])</code></li>
+      <li>Python Kodu:<code>ogrenci_orta=fuzz.trimf(ogrenci,[30,50,70])</code></li>
       </ul>
     </li>
     <li>
     Kötü: 0-0-50
-      <ul>
-      <li><code></code></li>
+    <ul>
+<li>Python Kodu:<code>ogrenci_orta=fuzz.trimf(ogrenci,[0,0,50])</code></li>
       </ul>
     </li>
 </ul>
