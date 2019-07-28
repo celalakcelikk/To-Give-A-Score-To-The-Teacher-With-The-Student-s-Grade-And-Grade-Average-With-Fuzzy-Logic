@@ -153,6 +153,6 @@ Aşağıdaki resimde görüldüğü gibi öğrenicinin not aralıkları ile sın
       <li>Python Kodu: <code>hocanin_notu=np.arange(0,11,0.1)</code></li>
       </ul>
     </li>
-    <li>
+   
  </ul>
 
