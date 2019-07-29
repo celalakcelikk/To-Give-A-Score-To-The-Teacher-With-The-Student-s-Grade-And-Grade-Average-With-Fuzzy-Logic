@@ -194,7 +194,7 @@ Grafiksel gösterimi aşağıdaki gibidir.
 
 <img src="https://github.com/celalakcelikk/To-Give-A-Score-To-The-Teacher-With-The-Student-s-Grade-And-Grade-Average-With-Fuzzy-Logic/blob/master/iimages/grafik.PNG">
 
-### Bulanık Çıkarım Metodu
+### Bulanık Çıkarım Yöntemi
 
 Mamdani bulanık çıkarım tiplerinden max-min çıkarımı kullandım. Sonuçlar daha verimli oldu.
 
@@ -267,5 +267,16 @@ c4=np.fmax(c2,c3)
 toplanan_kurallar= np.fmax(c1,c4)
     </li>
    </li>
-  
  </ul>
+ 
+### Durulama
+
+<ul>
+    <li>
+      Kural-1
+      <ul>
+        <li>Durulama yöntemlerinden Mean of Maximum – En Büyük Üyelik dereceli elemaların orta noktası yöntemi kullandım çünkü diğer    yöntemlere göre daha optimum sonuçlar alındı.</li>
+      <li>Python Kodu: <code>durulama_islemi= fuzz.defuzz(hocanin_notu,toplanan_kurallar,'mom')</code></li>
+      </ul>
+    </li>
+  </ul>
