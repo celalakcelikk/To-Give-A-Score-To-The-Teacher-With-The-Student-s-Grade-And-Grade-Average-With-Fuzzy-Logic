@@ -159,7 +159,7 @@ Aşağıdaki resimde görüldüğü gibi gerçek hayatta olması çok zor olan �
 
 ### Üyelik İşlemleri
 
-Üçgen üyelik fonksiyonunu kullanıldı çünkü daha verimli sonuçlar alındı.
+Üçgen üyelik fonksiyonunu kullanıldı çünkü daha verimli sonuçlar alındı. 
 
 <ul>
     <li>
@@ -189,3 +189,7 @@ Aşağıdaki resimde görüldüğü gibi gerçek hayatta olması çok zor olan �
       </ul>
     </li> 
  </ul>
+
+Grafiksel gösterimi aşağıdaki gibidir.
+
+<img src="https://github.com/celalakcelikk/To-Give-A-Score-To-The-Teacher-With-The-Student-s-Grade-And-Grade-Average-With-Fuzzy-Logic/blob/master/iimages/grafik.PNG">
