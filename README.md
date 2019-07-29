@@ -279,3 +279,8 @@ toplanan_kurallar= np.fmax(c1,c4)
       </ul>
     </li>
   </ul>
+
+### Sistem Üzerinde Oluşturulan Çıktı
+
+#### Girdiler
+<img src="https://github.com/celalakcelikk/To-Give-A-Score-To-The-Teacher-With-The-Student-s-Grade-And-Grade-Average-With-Fuzzy-Logic/blob/master/iimages/girdi.png">
