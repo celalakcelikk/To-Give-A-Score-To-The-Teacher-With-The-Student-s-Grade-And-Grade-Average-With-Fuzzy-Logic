@@ -249,22 +249,22 @@ Mamdani bulanık çıkarım tiplerinden max-min çıkarımı kullandım. Sonuçl
       </ul>
     </li>
   <li>
-    ctr0=np.zeros_like(hocanin_notu)
+    Python Kodu: <code>ctr0=np.zeros_like(hocanin_notu)</code>
 </li>
   <li>
-c1=np.fmax(Kontrol_kural1,Kontrol_kural2)
+Python Kodu: <code>c1=np.fmax(Kontrol_kural1,Kontrol_kural2)</code>
     </li>
   <li>
-c2=np.fmax(Kontrol_kural3,Kontrol_kural4)
+Python Kodu: <code>c2=np.fmax(Kontrol_kural3,Kontrol_kural4)</code>
     </li>
   <li>
-c3=np.fmax(Kontrol_kural5,Kontrol_kural6)
+Python Kodu: <code>c3=np.fmax(Kontrol_kural5,Kontrol_kural6)</code>
     </li>
   <li>
-c4=np.fmax(c2,c3)
+Python Kodu: <code>c4=np.fmax(c2,c3)</code>
     </li>
   <li>
-toplanan_kurallar= np.fmax(c1,c4)
+Python Kodu: <code>toplanan_kurallar= np.fmax(c1,c4)</code>
     </li>
    </li>
  </ul>
