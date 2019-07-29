@@ -273,9 +273,8 @@ toplanan_kurallar= np.fmax(c1,c4)
 
 <ul>
     <li>
-      Kural-1
+      Durulama yöntemlerinden Mean of Maximum – En Büyük Üyelik dereceli elemaların orta noktası yöntemi kullandım çünkü diğer    yöntemlere göre daha optimum sonuçlar alındı.
       <ul>
-        <li>Durulama yöntemlerinden Mean of Maximum – En Büyük Üyelik dereceli elemaların orta noktası yöntemi kullandım çünkü diğer    yöntemlere göre daha optimum sonuçlar alındı.</li>
       <li>Python Kodu: <code>durulama_islemi= fuzz.defuzz(hocanin_notu,toplanan_kurallar,'mom')</code></li>
       </ul>
     </li>
