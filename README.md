@@ -204,7 +204,8 @@ Mamdani bulanık çıkarım tiplerinden max-min çıkarımı kullandım. Sonuçl
       Kural-1
       <ul>
         <li>Öğrencinin notu kötü ve sınıfın ortalama notu kötü = Öğretmenin puanı çok kötü</li>
-      <li>Python Kodu: <code>ogrenci= np.arange(0,101,0.1)</code></li>
+      <li>Python Kodu: <code>Kural1= np.fmin(ogr_kotu,sinif_kotu)</code><br>
+                    <code>Kontrol_kural1=np.fmin(Kural1,hocanin_notu_cok_kotu)</code></li>
       </ul>
     </li>
       <li>
