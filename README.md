@@ -197,3 +197,27 @@ Grafiksel gösterimi aşağıdaki gibidir.
 ### Bulanık Çıkarım Metodu
 
 Mamdani bulanık çıkarım tiplerinden max-min çıkarımı kullandım. Sonuçlar daha verimli oldu.
+
+### Bulanık Kuralların Belirlenmesi 
+<ul>
+    <li>
+      Kural-1
+      <ul>
+        <li>Öğrencinin notu kötü ve sınıfın ortalama notu kötü = Öğretmenin puanı çok kötü</li>
+      <li>Python Kodu: <code>ogrenci= np.arange(0,101,0.1)</code></li>
+      </ul>
+    </li>
+      <li>
+    Sınıfın not ortalaması=0 ile 100 arasında belirlendi.
+      <ul>
+      <li>Python Kodu: <code>Kural1= np.fmin(ogr_kotu,sinif_kotu)</code><br>
+                    <code>Kontrol_kural1=np.fmin(Kural1,hocanin_notu_cok_kotu)</code></li>
+      </ul>
+    </li>
+      <li>
+    Öğretmenin puanı=0 ile 10 arasında belirlendi.
+      <ul>
+      <li>Python Kodu: <code>hocanin_notu=np.arange(0,11,0.1)</code></li>
+      </ul>
+    </li> 
+ </ul>
