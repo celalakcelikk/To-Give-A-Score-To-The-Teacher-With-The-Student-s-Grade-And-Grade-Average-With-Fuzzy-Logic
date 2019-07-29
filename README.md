@@ -147,8 +147,7 @@ Aşağıdaki resimde görüldüğü gibi öğrenicinin not aralıkları ile sın
       <ul>
       <li>Python Kodu: <code>hocanin_notu=np.arange(0,11,0.1)</code></li>
       </ul>
-    </li>
-   
+    </li> 
  </ul>
 
 ### Bulandırma 
@@ -157,3 +156,36 @@ Aşağıdaki resimde görüldüğü gibi öğrenicinin not aralıkları ile sın
 Aşağıdaki resimde görüldüğü gibi gerçek hayatta olması çok zor olan öğretmen puan aralıklarını çıkarıp sistemi bulanıklaştırıldı ve tablo halinde oluşturuldu.
 
 <img src="https://github.com/celalakcelikk/To-Give-A-Score-To-The-Teacher-With-The-Student-s-Grade-And-Grade-Average-With-Fuzzy-Logic/blob/master/iimages/bulandirma.png">
+
+### Üyelik İşlemleri
+
+Üçgen üyelik fonksiyonunu kullanıldı çünkü daha verimli sonuçlar alındı.
+
+<ul>
+    <li>
+    Öğrencinin üyelik fonksiyonları: 
+      <ul>
+      <li>Python Kodu: <code>ogrenci_kotu=fuzz.trimf(ogrenci,[0,0,50])</code></li>
+        <li>Python Kodu: <code>ogrenci_orta=fuzz.trimf(ogrenci,[30,50,70])</code></li>
+        <li>Python Kodu: <code>ogrenci_iyi=fuzz.trimf(ogrenci,[50,100,100])</code></li>
+      </ul>
+    </li>
+      <li>
+    Sınıfın not ortalaması üyelik fonksiyonları: 
+      <ul>
+      <li>Python Kodu: <code>sinif_ort_kotu=fuzz.trimf(sinif_ort,[0,0,50])</code></li>
+        <li>Python Kodu: <code>sinif_ort_orta=fuzz.trimf(sinif_ort,[30,50,70])</code></li>
+        <li>Python Kodu: <code>sinif_ort_iyi=fuzz.trimf(sinif_ort,[50,100,100])</code></li>
+      </ul>
+    </li>
+      <li>
+    Öğretmenin puanı üyelik fonksiyonları: 
+      <ul>
+      <li>Python Kodu: <code>hocanin_notu_cok_kotu=fuzz.trimf(hocanin_notu,[0,0,2.5])</code></li>
+        <li>Python Kodu: <code>hocanin_notu_kotu=fuzz.trimf(hocanin_notu,[2,3.5,5])</code></li>
+        <li>Python Kodu: <code>hocanin_notu_orta=fuzz.trimf(hocanin_notu,[4,5.5,7])</code></li>
+        <li>Python Kodu: <code>hocanin_notu_iyi=fuzz.trimf(hocanin_notu,[6.5,7.5,8.5])</code></li>
+        <li>Python Kodu: <code>hocanin_notu_cok_iyi=fuzz.trimf(hocanin_notu,[8,10,10])</code></li>
+      </ul>
+    </li> 
+ </ul>
