@@ -209,16 +209,63 @@ Mamdani bulanık çıkarım tiplerinden max-min çıkarımı kullandım. Sonuçl
       </ul>
     </li>
       <li>
-    Sınıfın not ortalaması=0 ile 100 arasında belirlendi.
+    Kural-2
       <ul>
-      <li>Python Kodu: <code>Kural1= np.fmin(ogr_kotu,sinif_kotu)</code><br>
-                    <code>Kontrol_kural1=np.fmin(Kural1,hocanin_notu_cok_kotu)</code></li>
+        <li>Öğrencinin notu orta ve sınıfın ortalama notu kötü = Öğretmenin puanı kötü</li>
+      <li>Python Kodu: <code>Kural2= np.fmin(ogr_orta,sinif_kotu)</code><br>
+                    <code>Kontrol_kural2=np.fmin(Kural2,hocanin_notu_kotu)</code></li>
       </ul>
     </li>
-      <li>
-    Öğretmenin puanı=0 ile 10 arasında belirlendi.
+       <li>
+    Kural-3
       <ul>
-      <li>Python Kodu: <code>hocanin_notu=np.arange(0,11,0.1)</code></li>
+        <li>Öğrencinin notu iyi ve sınıfın ortalama notu iyi = Öğretmenin puanı çok iyi</li>
+      <li>Python Kodu: <code>Kural3= np.fmin(ogr_iyi,sinif_iyi)</code><br>
+                    <code>Kontrol_kural3=np.fmin(Kural3,hocanin_notu_cok_iyi)</code></li>
       </ul>
-    </li> 
+    </li>
+  <li>
+    Kural-4
+      <ul>
+        <li>Öğrencinin notu orta ve sınıfın ortalama notu orta = Öğretmenin puanı orta</li>
+      <li>Python Kodu: <code>Kural4= np.fmin(ogr_orta,sinif_orta)</code><br>
+                    <code>Kontrol_kural4=np.fmin(Kural4,hocanin_notu_orta)</code></li>
+      </ul>
+    </li>
+  <li>
+    Kural-5
+      <ul>
+        <li>Öğrencinin notu iyi ve sınıfın ortalama notu orta = Öğretmenin puanı iyi</li>
+      <li>Python Kodu: <code>Kural5= np.fmin(ogr_iyi,sinif_orta)</code><br>
+                    <code>Kontrol_kural5=np.fmin(Kural5,hocanin_notu_iyi)</code></li>
+      </ul>
+    </li>
+  <li>
+    Kural-6
+      <ul>
+        <li>Öğrencinin notu orta ve sınıfın ortalama notu iyi = Öğretmenin puanı iyi</li>
+      <li>Python Kodu: <code>Kural6= np.fmin(ogr_orta,sinif_iyi)</code><br>
+                    <code>Kontrol_kural6=np.fmin(Kural6,hocanin_notu_iyi)</code></li>
+      </ul>
+    </li>
+  <li>
+    ctr0=np.zeros_like(hocanin_notu)
+</li>
+  <li>
+c1=np.fmax(Kontrol_kural1,Kontrol_kural2)
+    </li>
+  <li>
+c2=np.fmax(Kontrol_kural3,Kontrol_kural4)
+    </li>
+  <li>
+c3=np.fmax(Kontrol_kural5,Kontrol_kural6)
+    </li>
+  <li>
+c4=np.fmax(c2,c3)
+    </li>
+  <li>
+toplanan_kurallar= np.fmax(c1,c4)
+    </li>
+   </li>
+  
  </ul>
