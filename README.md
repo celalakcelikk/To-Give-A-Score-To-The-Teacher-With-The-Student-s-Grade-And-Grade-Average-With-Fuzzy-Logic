@@ -248,6 +248,7 @@ Mamdani bulanık çıkarım tiplerinden max-min çıkarımı kullandım. Sonuçl
                     <code>Kontrol_kural6=np.fmin(Kural6,hocanin_notu_iyi)</code></li>
       </ul>
     </li>
+  
   <li>
     Python Kodu: <code>ctr0=np.zeros_like(hocanin_notu)</code>
 </li>
