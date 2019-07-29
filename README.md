@@ -193,3 +193,7 @@ Aşağıdaki resimde görüldüğü gibi gerçek hayatta olması çok zor olan �
 Grafiksel gösterimi aşağıdaki gibidir.
 
 <img src="https://github.com/celalakcelikk/To-Give-A-Score-To-The-Teacher-With-The-Student-s-Grade-And-Grade-Average-With-Fuzzy-Logic/blob/master/iimages/grafik.PNG">
+
+### Bulanık Çıkarım Metodu
+
+Mamdani bulanık çıkarım tiplerinden max-min çıkarımı kullandım. Sonuçlar daha verimli oldu.
